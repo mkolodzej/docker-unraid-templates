@@ -12,13 +12,10 @@
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <Icon>https://raw.githubusercontent.com/cmer/docker-templates/master/cmer/images/seafile-icon.png</Icon>
   <ExtraParams/>
-
   <Description>Seafile is file synchronisation and sharing server.</Description>
   <Registry>https://hub.docker.com/r/cmer/seafile</Registry>
   <GitHub>https://github.com/cmer/docker-seafile</GitHub>
-  <Repository>cmer/docker-seafile</Repository>
   <Project>https://www.seafile.com/</Project>
-
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
