@@ -16,7 +16,6 @@
   <Description>Caddy is an HTTP/2 web server with automatic HTTPS</Description>
   <Registry>https://hub.docker.com/r/cmer/caddy</Registry>
   <GitHub>https://github.com/cmer/docker-caddy</GitHub>
-  <Repository>cmer/docker-caddy</Repository>
   <Project>https://www.caddyserver.com/</Project>
 
   <Networking>
