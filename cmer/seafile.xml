@@ -41,6 +41,7 @@
   <Config Name="Data Path" Target="/seafile" Default="/mnt/user/seafile" Mode="rw" Description="Container path: /seafile" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/seafile</Config>
 
   <Config Name="Enable Pro Edition" Target="PRO" Default="false" Mode="" Description="Default: false" Type="Variable" Display="advanced" Required="true" Mask="false">false</Config>
+  <Config Name="Version" Target="VERSION" Default="latest" Mode="" Description="Default: latest" Type="Variable" Display="advanced" Required="true" Mask="false">latest</Config>
   <Config Name="MySQL Server Host" Target="MYSQL_SERVER" Default="" Mode="" Description="Enables MySQL if this is populated" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="MySQL User" Target="MYSQL_USER" Default="seafile" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">seafile</Config>
   <Config Name="MySQL User Password" Target="MYSQL_USER_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
