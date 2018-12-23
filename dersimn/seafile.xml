@@ -32,9 +32,10 @@
     </Publish>
   </Networking>
 
-  <Config Name="Web Interface Port" Target="8000" Default="8000" Mode="tcp" Description="SeaHub Web UI. Default: 8000" Type="Port" Display="advanced" Required="true" Mask="false">8000</Config>
+  <Config Name="Web Interface Port" Target="80" Default="8000" Mode="tcp" Description="SeaHub Web UI. Default: 8000" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="unRAID Hostname" Target="SEAFILE_SERVER_HOSTNAME" Default="" Mode="" Description="ex: 10.0.0.4" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Data Path" Target="/shared" Default="/mnt/user/seafile-data" Mode="rw" Description="Container path: /shared" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/seafile</Config>
+
   <Config Name="Admin Email" Target="SEAFILE_ADMIN_EMAIL" Default="me@example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Admin Password" Target="SEAFILE_ADMIN_PASSWORD" Default="a_very_secret_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Data Path" Target="/shared" Default="/mnt/user/seafile-data" Mode="rw" Description="Container path: /shared" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/seafile</Config>
 </Container>
